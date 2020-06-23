@@ -1,10 +1,8 @@
 ---
 layout: post
-title: 'Duck Typing in Ruby: Object-Oriented Design'
+title: 'Demystifying Duck Typing in Ruby: Take Your OO Design Skills to the Next Level'
 published: true
 ---
-
-# Demystifying Duck Typing in Ruby: Take Your OO Design Skills to the Next Level
 
 > "If an object quacks like a duck and walks like a duck, then it's a duck"
 

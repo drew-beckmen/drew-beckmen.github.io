@@ -10,4 +10,4 @@ I am a rising sophomore at Yale University studying economics and computer scien
 
 ### Contact me
 
-[email@domain.com](mailto:drew.beckmen@yale.edu)
+[drew.beckmen@yale.edu](mailto:drew.beckmen@yale.edu)

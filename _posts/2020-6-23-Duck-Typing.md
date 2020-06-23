@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: 'Duck Typing in Ruby: Object-Oriented Design'
 published: true
 ---
 
@@ -154,4 +154,4 @@ Press the green play button to see the output. The program will print the same o
 
 In Ruby, there is no need for abstract classes and type checking. All you need to focus on are the messages to which your objects respond!
 
-For many people accustomed to statically typed languages, the concept of duck typing may seem foreign. However, if you are able to get beyond the "class-first" mindset and embrace objects for their behaviors rather than their types, you will be well on your way to becoming a powerful Ruby programmer. 
+For many people accustomed to statically typed languages, the concept of duck typing may seem foreign. However, if you are able to get beyond the "class-first" mindset and embrace objects for their behaviors rather than their types, you will be well on your way to becoming a powerful Ruby programmer.

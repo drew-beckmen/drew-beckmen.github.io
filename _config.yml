@@ -22,7 +22,7 @@ footer-links:
   flickr:
   github: drew-beckmen
   instagram:
-  linkedin:
+  linkedin: drew-beckmen
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: DrewBeckmen
@@ -40,7 +40,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://drewbeckmen.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -83,5 +83,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-theme: jekyll-theme-cayman

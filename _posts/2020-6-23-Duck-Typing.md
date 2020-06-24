@@ -4,6 +4,8 @@ title: 'Demystifying Duck Typing in Ruby: Take Your OO Design Skills to the Next
 published: true
 ---
 
+<img src= "../images/cartoon_duck.jpg" align="center" alt="Duck Typing">
+
 > "If an object quacks like a duck and walks like a duck, then it's a duck"
 
 > "Unlike static and dynamic typing of variables, duck typing is not a language feature, but a design principle which is a combination of dynamic typing and object-oriented programming" —Matz
@@ -25,10 +27,7 @@ class Main {
 
 When the Java compiler looks at that code, it will be very unhappy. Why? Because Java is statically typed. On line 4, we try to reassign the variable `x`, which we initially defined as an `int`, to a value of type String. As a result, we will get an error: 
 
-```
-Main.java:4: error: incompatible types: String cannot be converted to int
-    x = "Hello"; 
-```
+`Main.java:4: error: incompatible types: String cannot be converted to int`
 
 The analogous code in Ruby would be: 
 
@@ -137,10 +136,9 @@ Trip.new.prepare([TravelAgent.new, Vacationer.new])
 ```
 
 We will get the following output:
-```
-Flights are booked!
-Bags are packed!
-```
+> Flights are booked!
+> 
+> Bags are packed!
 
 Magic! Now, we don't care whether a preparer is an instance of TravelAgent or Vacationer. The class of preparer is not relevant — we only need to ensure that each preparer responds to the message prepare_trip. By creating a Preparer duck, we harness the power of Ruby as a dynamically typed language. 
 
@@ -153,3 +151,5 @@ Press the green play button to see the output. The program will print the same o
 In Ruby, there is no need for abstract classes and type checking. All you need to focus on are the messages to which your objects respond!
 
 For many people accustomed to statically typed languages, the concept of duck typing may seem foreign. However, if you are able to get beyond the "class-first" mindset and embrace objects for their behaviors rather than their types, you will be well on your way to becoming a powerful Ruby programmer.
+
+Originally published on Medium in *The Startup*.
